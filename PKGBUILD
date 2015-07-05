@@ -1,5 +1,5 @@
 pkgname=luiz-branco-apps
-pkgver=20150104
+pkgver=20150112
 pkgrel=1
 pkgdesc="Luiz Branco <me@luizbranco.com> essential arch linux applications"
 arch=x86_64
@@ -21,6 +21,5 @@ depends=(
   'task'          # cmdline to-do list
   'terminus-font' # fixed width font
   'tmux'          # terminal multiplexer
-  'vim-minimal'   # vim without GUI
-  'yaourt'        # AUR packages instaler
+  'vim-minimal'   # terminal vim
 )
