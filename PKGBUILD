@@ -34,5 +34,6 @@ optdepends=(
   'go'            # Go lang runtime
   'google-chrome' # Chrome web browser
   'pacaur'        # AUR helper with cower as backend
+  'rtorrent'      # ncurses torrent client
   'silentcast'    # record screen into animated gifs
 )
