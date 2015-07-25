@@ -1,5 +1,5 @@
 pkgname=luiz-branco-apps
-pkgver=20150112
+pkgver=20150725
 pkgrel=1
 pkgdesc="Luiz Branco <me@luizbranco.com> essential arch linux applications"
 arch=x86_64
@@ -17,9 +17,12 @@ depends=(
   'i3status'      # status bar for i3-wm
   'mplayer'       # movie player
   'openssh'       # secure shell
+  'ranger'        # ncurses file browser
   'rxvt-unicode'  # terminal emulator
   'task'          # cmdline to-do list
   'terminus-font' # fixed width font
   'tmux'          # terminal multiplexer
   'vim-minimal'   # terminal vim
+  'weechat'       # ncurses IRC
+  'xdg-utils'     # x desktop group utils
 )
