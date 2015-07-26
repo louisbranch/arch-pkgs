@@ -16,15 +16,19 @@ depends=(
   'i3-wm'         # tiling window manager
   'i3status'      # status bar for i3-wm
   'mpv'           # movie player
+  'numlockx'      # enable numlock key
   'openssh'       # secure shell
   'ranger'        # ncurses file browser
   'rxvt-unicode'  # terminal emulator
   'task'          # cmdline to-do list
   'terminus-font' # fixed width font
   'tmux'          # terminal multiplexer
+  'urxvt-perls'   # urxvt extensions
   'vim-minimal'   # terminal vim
   'weechat'       # ncurses IRC
   'xdg-utils'     # x desktop group utils
+  'xorg-xinit'    # x server initialization
+  'xorg-xmodmap'  # x keyboard config
 )
 optdepends=(
   'cower'         # AUR packages installer
@@ -32,8 +36,8 @@ optdepends=(
   'gcolor2'       # color picker
   'gimp'          # image editor
   'go'            # Go lang runtime
-  'google-chrome' # Chrome web browser
+  'google-chrome' # Chrome web browser from AUR
   'pacaur'        # AUR helper with cower as backend
   'rtorrent'      # ncurses torrent client
-  'silentcast'    # record screen into animated gifs
+  'silentcast'    # record screen into animated gifs from AUR
 )
