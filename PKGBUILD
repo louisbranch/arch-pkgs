@@ -15,14 +15,17 @@ depends=(
   'git'           # version control system
   'i3-wm'         # tiling window manager
   'i3status'      # status bar for i3-wm
+  'links'         # ncurses web browser
   'mpv'           # movie player
   'numlockx'      # enable numlock key
   'openssh'       # secure shell
+  'pkgstats'      # send anonymous package usage stats
   'ranger'        # ncurses file browser
   'rxvt-unicode'  # terminal emulator
   'task'          # cmdline to-do list
   'terminus-font' # fixed width font
   'tmux'          # terminal multiplexer
+  'tree'          # graphical dir tree
   'urxvt-perls'   # urxvt extensions
   'vim-minimal'   # terminal vim
   'weechat'       # ncurses IRC
@@ -31,13 +34,15 @@ depends=(
   'xorg-xmodmap'  # x keyboard config
 )
 optdepends=(
-  'cower'         # AUR packages installer
-  'epdfview'      # PDF viewer
-  'gcolor2'       # color picker
-  'gimp'          # image editor
-  'go'            # Go lang runtime
-  'google-chrome' # Chrome web browser from AUR
-  'pacaur'        # AUR helper with cower as backend
-  'rtorrent'      # ncurses torrent client
-  'silentcast'    # record screen into animated gifs from AUR
+  'cower'         # [aur, util] AUR packages installer
+  'pacaur'        # [aur, util] AUR helper with cower as backend
+  'silentcast'    # [aur, util] record screen into animated gifs
+  'google-chrome' # [aur, util] Chrome web browser
+  'epdfview'      # [util] PDF viewer
+  'gcolor2'       # [util] color picker
+  'gimp'          # [util] image editor
+  'rtorrent'      # [util] ncurses torrent client
+  'go'            # [work] Go lang runtime
+  'mariadb'       # [work] MySQL db replacement
+  'redis'         # [work] key-value store
 )
