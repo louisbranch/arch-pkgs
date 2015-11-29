@@ -1,6 +1,6 @@
 # Maintainer Luiz Branco <me@luizbranco.com>
 pkgname=apps-luizbranco
-pkgver=20150725
+pkgver=20151129
 pkgrel=1
 pkgdesc="Personal list of essential arch linux applications"
 arch=any
@@ -10,11 +10,11 @@ depends=(
   'ack'            # grep for programmers
   'alsa-utils'     # ncurses volume control
   'calc'           # C terminal calculator
-  'cmus'           # ncurses music player
+  'mpc'            # music player client
+  'mpd'            # music player daemon
   'dialog'         # selector for wifi-menu
   'dmenu'          # application launcher
   'dunst'          # minimal notification daemon
-  'dwb'            # minimal browser with vi-keys bindings
   'feh'            # simple image viewer
   'git'            # version control system
   'i3-wm'          # tiling window manager
@@ -35,7 +35,7 @@ depends=(
   'tree'           # graphical dir tree
   'urxvt-perls'    # urxvt extensions
   'unzip'          # extract zip files
-  'vim-minimal'    # terminal vim
+  'vim'            # terminal vim
   'weechat'        # ncurses IRC
   'wpa_supplicant' # wifi WPA key negotiation
   'xdg-utils'      # x desktop group utils
