@@ -1,6 +1,6 @@
 # Maintainer Luiz Branco <me@luizbranco.com>
 pkgname=apps-luizbranco
-pkgver=20160119
+pkgver=20160122
 pkgrel=1
 pkgdesc="Personal list of essential arch linux applications"
 arch=any
@@ -19,7 +19,6 @@ depends=(
   'dialog'            # selector for wifi-menu
   'dmenu'             # application launcher
   'dunst'             # minimal notification daemon
-  'entr'
   'feh'               # simple image viewer
   'git'               # version control system
   'i3-wm'             # tiling window manager
@@ -55,6 +54,7 @@ optdepends=(
   'cower'             # [aur, util] AUR packages installer
   'pacaur'            # [aur, util] AUR helper with cower as backend
   'silentcast'        # [aur, util] record screen into animated gifs
+  'entr'              # [util] Watch for files and run cmds
   'epdfview'          # [util] PDF viewer
   'gcolor2'           # [util] color picker
   'gimp'              # [util] image editor
