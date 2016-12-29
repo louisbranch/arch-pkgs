@@ -1,6 +1,6 @@
 # Maintainer Luiz Branco <me@luizbranco.com>
 pkgname=apps-luizbranco
-pkgver=20160122
+pkgver=20161229
 pkgrel=1
 pkgdesc="Personal list of essential arch linux applications"
 arch=any
@@ -30,8 +30,6 @@ depends=(
   'numlockx'          # enable numlock key
   'openssh'           # secure shell
   'pkgstats'          # send anonymous package usage stats
-  'python2-nbxmpp'    # Jabber dep for weechat
-  'python2-notify'    # notification dep for weechat
   'ranger'            # ncurses file browser
   'rxvt-unicode'      # terminal emulator
   'rsync'
@@ -42,7 +40,6 @@ depends=(
   'urxvt-perls'       # urxvt extensions
   'unzip'             # extract zip files
   'neovim'            # terminal neovim
-  'weechat'           # ncurses IRC
   'wpa_supplicant'    # wifi WPA key negotiation
   'xdg-utils'         # x desktop group utils
   'xorg-server'       # x server
@@ -53,17 +50,12 @@ depends=(
 optdepends=(
   'cower'             # [aur, util] AUR packages installer
   'pacaur'            # [aur, util] AUR helper with cower as backend
-  'silentcast'        # [aur, util] record screen into animated gifs
   'entr'              # [util] Watch for files and run cmds
   'epdfview'          # [util] PDF viewer
   'gcolor2'           # [util] color picker
   'gimp'              # [util] image editor
   'rtorrent'          # [util] ncurses torrent client
-  'syncthing'         # [util] sync files between devices
-  'go'                # [work] Go lang runtime
   'mariadb'           # [work] MySQL db replacement
   'redis'             # [work] key-value store
-  'mongodb'           # [work] document database
-  'mongodb-tools'     # [work] additional tools for mongodb
   'net-utils'         # [work] VirtualBox host communication
 )
