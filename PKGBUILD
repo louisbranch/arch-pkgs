@@ -3,14 +3,14 @@ pkgname=apps-luizbranco
 pkgver=20161229
 pkgrel=1
 pkgdesc="Personal list of essential arch linux applications"
-arch=any
+arch=('any')
 url="http://luizbranco.com"
 license=('WTFPL')
 depends=(
   'ack'               # grep for programmers
-  'archey3'
+  'archey3'           # print basic system info
   'alsa-utils'        # ncurses volume control
-  'bash-completion'
+  'bash-completion'   # bash autocomplete using tab
   'calc'              # C terminal calculator
   'chromium'          # web browser
   'conky'             # system monitor
@@ -31,8 +31,9 @@ depends=(
   'openssh'           # secure shell
   'pkgstats'          # send anonymous package usage stats
   'ranger'            # ncurses file browser
+  'rofi'              # dmenu replacement
   'rxvt-unicode'      # terminal emulator
-  'rsync'
+  'rsync'             # better cp
   'task'              # cmdline to-do list
   'terminus-font'     # fixed width font
   'tmux'              # terminal multiplexer
@@ -54,8 +55,9 @@ optdepends=(
   'epdfview'          # [util] PDF viewer
   'gcolor2'           # [util] color picker
   'gimp'              # [util] image editor
-  'rtorrent'          # [util] ncurses torrent client
   'mariadb'           # [work] MySQL db replacement
-  'redis'             # [work] key-value store
   'net-utils'         # [work] VirtualBox host communication
+  'redis'             # [work] key-value store
+  'rtorrent'          # [util] ncurses torrent client
+  'ruby'              # [work] latest ruby version
 )
