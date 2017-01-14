@@ -24,6 +24,7 @@ depends=(
   'i3-wm'             # tiling window manager
   'i3status'          # status bar for i3-wm
   'links'             # ncurses web browser
+  'mpd'               # music player daemon
   'mpv'               # movie player
   'ncdu'              # ncurses disk usage analyzer
   'ncmpcpp'           # ncurses mpd
@@ -56,7 +57,7 @@ optdepends=(
   'gcolor2'           # [util] color picker
   'gimp'              # [util] image editor
   'mariadb'           # [work] MySQL db replacement
-  'net-utils'         # [work] VirtualBox host communication
+  'net-tools'         # [work] VirtualBox host communication
   'redis'             # [work] key-value store
   'rtorrent'          # [util] ncurses torrent client
   'ruby'              # [work] latest ruby version
