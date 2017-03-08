@@ -17,9 +17,8 @@ depends=(
   'mpc'               # music player client
   'mpd'               # music player daemon
   'dialog'            # selector for wifi-menu
-  'dmenu'             # application launcher
   'dunst'             # minimal notification daemon
-  'feh'               # simple image viewer
+  'sxiv'              # simple image viewer
   'git'               # version control system
   'i3-wm'             # tiling window manager
   'i3status'          # status bar for i3-wm
@@ -32,10 +31,9 @@ depends=(
   'openssh'           # secure shell
   'pkgstats'          # send anonymous package usage stats
   'ranger'            # ncurses file browser
-  'rofi'              # dmenu replacement
+  'rofi'              # application launcher
   'rxvt-unicode'      # terminal emulator
   'rsync'             # better cp
-  'task'              # cmdline to-do list
   'terminus-font'     # fixed width font
   'tmux'              # terminal multiplexer
   'tree'              # graphical dir tree
