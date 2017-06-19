@@ -7,39 +7,39 @@ arch=('any')
 url="http://luizbranco.com"
 license=('WTFPL')
 depends=(
-  'ack'               # grep for programmers
-  'archey3'           # print basic system info
   'alsa-utils'        # ncurses volume control
+  'archey3'           # print basic system info
   'bash-completion'   # bash autocomplete using tab
   'calc'              # C terminal calculator
-  'chromium'          # web browser
   'conky'             # system monitor
-  'mpc'               # music player client
-  'mpd'               # music player daemon
   'dialog'            # selector for wifi-menu
   'dunst'             # minimal notification daemon
-  'sxiv'              # simple image viewer
+  'firefox'           # web browser
   'git'               # version control system
   'i3-wm'             # tiling window manager
   'i3status'          # status bar for i3-wm
   'links'             # ncurses web browser
+  'mpc'               # music player client
+  'mpd'               # music player daemon
   'mpd'               # music player daemon
   'mpv'               # movie player
   'ncdu'              # ncurses disk usage analyzer
   'ncmpcpp'           # ncurses mpd
+  'neovim'            # terminal neovim
   'numlockx'          # enable numlock key
   'openssh'           # secure shell
   'pkgstats'          # send anonymous package usage stats
   'ranger'            # ncurses file browser
+  'ripgrep'           # grep for programmers
   'rofi'              # application launcher
-  'rxvt-unicode'      # terminal emulator
   'rsync'             # better cp
+  'rxvt-unicode'      # terminal emulator
+  'sxiv'              # simple image viewer
   'terminus-font'     # fixed width font
   'tmux'              # terminal multiplexer
   'tree'              # graphical dir tree
-  'urxvt-perls'       # urxvt extensions
   'unzip'             # extract zip files
-  'neovim'            # terminal neovim
+  'urxvt-perls'       # urxvt extensions
   'wpa_supplicant'    # wifi WPA key negotiation
   'xdg-utils'         # x desktop group utils
   'xorg-server'       # x server
